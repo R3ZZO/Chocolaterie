@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <link rel="icon" href="favicon.ico" />
+
+    <title>Chocolatier isChoco</title>
+</head>
+<body>
+
+    <nav class="menutop">
+        <img class="logo" src="logo.png" alt="logo-is-choco">
+        <ul>
+            <li><a class = "#section1" href = "#section1"><i class="fa-solid fa-house-user"></i> Accueil</a></li>
+            <li><a href = "#section2"><i class="fa-solid fa-igloo"></i> La Maison & Notre Histoire</a></li>
+            <li><a href = "#section3"><i class="fa-solid fa-trophy"></i> Produits Vedettes</a></li>
+            <li><a href = "#section4"><i class="fa-solid fa-cookie-bite"></i> Notre eBoutique</a></li>
+            <li><a href = "#section5"><i class="fa-brands fa-hotjar"></i> Avis & Témoignages</a></li>
+            <li><a href = "#section6"><i class="fa-solid fa-shop"></i> Le Magasin</a></li>
+            <li><a href = "#section7"><i class="fa-solid fa-id-card"></i> Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="section1" id="section1">  
+        
+        <div id = "slider">
+    
+            <figure class="slide">
+         <img  src = "images/image01.jpg">
+         <figcaption>
+            <h2>Bienvenue chez isChoco</h2> 
+            <p>Chocolatier d'exception en <b><span class="txtBleu">Al</span>sa<span class="txtRouge">ce</span></b></p>
+             <p class="txtDate">Maitre Chocolatier depuis 1962</p>
+        </figcaption>
+        </figure>
+        <figure class="slide">
+         <img src = "images/image02.jpg">
+         <figcaption class="slide2">
+            <h3>+150 Variétés Chocolats Artisanal</h3>
+            <p>Elaborer avec des ingrédients de Qualité</p>
+            </figcaption>
+        </figure>
+        <figure class="slide">
+         <img src = "images/image03.jpg">
+         <figcaption class="slide3">
+            <h3>Meilleur chocolaterie en 2022*</h3>
+            
+            <p class="txtDate">*Elu N°1 au World Pastry Stars</p><a href="https://www.lesoir.be/334064/article/2020-10-26/le-chocolatier-belge-pierre-marcolini-elu-meilleur-patissier-du-monde/" target="_blank">   
+            <button class="article"><i class="fa-solid fa-award"></i> Voir l'article</button></a>
+            <p> </p>  
+        </figcaption>
+        </figure>
+        
+         <div id = "buttons_container">
+        
+            <div class="container">
+                <button class="fille icone" type="button" indice="0"></button>
+                <button class="montagne icone" type="button" indice="1"></button>
+                <button class="foret icone" type="button" indice="2"></button>
+            </div>   
+            
+        </div>
+        
+        <div id = "btn_previous" class = "direction_btn"><</div>
+        
+        <div id = "btn_next" class = "direction_btn">></div>
+        
+        </div>
+    </section>
+
+    <section class="section2" id="section2">
+        <h1> La Maison isChoco et notre histoire</h1>
+        <div class="house_container">
+            <div class="blocGauche"> 
+                <img src = "images/logo_store.png">
+                <div class="txtBlocGauche">
+                <h2>La Maison isChoco</h2>
+                <h3>Chocolatier depuis 1962</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus rem esse odio amet totam dolore? Distinctio fugit pariatur velit animi ratione ab, necessitatibus repellat maiores, ducimus error ullam minus aspernatur!. Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus deleniti tempora veritatis maxime similique atque, quibusdam mollitia dolorum omnis? Eos cupiditate iusto consectetur ad voluptatum molestias veniam, accusamus beatae dolor.</p>
+                <h3>Un savoir faire français inégalé</h3>
+            </div>
+            </div>
+            <div class="blocDroite"> 
+                <img src = "images/Cacao.jpg">
+                <div class="txtBlocGauche">
+                    <h2>Notre Histoire</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus rem esse odio amet totam dolore? Distinctio fugit pariatur velit animi ratione ab, necessitatibus repellat maiores, ducimus error ullam minus aspernatur!. Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus deleniti tempora veritatis maxime similique atque, quibusdam mollitia dolorum omnis? Eos cupiditate iusto consectetur ad voluptatum molestias veniam, accusamus beatae do Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus rem esse odio amet totam dolore? Distinctio fugit pariatur velit animi ratione ab, necessitatibus repellat maiores, ducimus error ullam minus aspernatur!. Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus deleniti tempora veritatis maxime similique atque, quibusdam mollitia dolorum omnis? Eos cupiditate iusto consectetur ad voluptatum molestias veniam, accusamus beatae dolor.</p>
+                <h4>is Choco...</h4>
+            </div>
+        </div>
+        
+        </div>
+        <div class="txtBloc">
+        <h2 >Créer en 1962 en alsace (FRANCE) et élu 3 fois meilleur chocolaterie du monde (2002, 2012, 2022)</h2>
+    </div>
+    </section>
+    <section class="section3">
+        <h1> Les produits vedettes</h1>
+        <p class="txt3D"> <br>N°1 des ventes, le lapin au chocolat</p>
+
+ <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+
+ <div class="section3D" id="section3">
+ 
+     <model-viewer class="model-viewer" src="3D/scene1/scene1.gltf" camera-controls disable-zoom ><span class="txt3D">Boite Chocolat Super Love</span></model-viewer>
+    <model-viewer class="model-viewer2"  src="3D/scene2/scene2.gltf" camera-controls disable-zoom ></model-viewer>
+    <model-viewer class="model-viewer" src="3D/scene3/scene3.gltf" camera-controls disable-zoom ><span class="txt3D">Boite Chocolat Saint-Valentin</span></model-viewer>
+
+</div>
+    </section>
+    <section class="section4" id="section4">
+        <h1>Notre eBoutique</h1>
+
+        <div class="containerShopIndice">
+          <div class="indice1">
+            <img src = "images/paiementout.png">
+            <p>Paiement Ultra Sécurisé </p>
+          </div>
+
+     
+            <div class="indice1">
+              <img src = "images/garantie.png">
+              <p>Satisfait ou Remboursé </p>
+            </div>
+
+         
+              <div class="indice1">
+                <img src = "images/premium.png">
+                <p>Ingrédients de Qualités</p>
+              </div>
+
+              <div class="indice1">
+                <img src = "images/livraison.png">
+                <p>Livraison Ultra Rapide</p>
+              </div>
+
+              <div class="indice1">
+                <img src = "images/retour.png">
+                <p>Retour Gratuit 14jours</p>
+              </div>
+  
+
+        </div>
+        <main>
+          <div class="row row-cols-lg-4 g-2">
+            <div class="col">
+              <div class="card">
+                <a class="card-item-link" href="#">
+                  <img class="card-img-top img-fluid" src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSHN0hmRjWfD7NJYWaNrpDjRCAo5MBa7nT01hZuNL2xH0o1MehtTqgWHfue_nZlZTMACQmO1oiZvAyb7By_lacXdGj8hjQv&usqp=CAE" alt="" aria-labelledby="title_1" width="270" height="200">
+                </a>
+                <div class="card-body">
+                  <div class="card-item-header">
+                    <p class="card-item-code">L'envie et la perfection</p>
+                    <div class="rate">
+                      <p class="card-item-rating">
+                        <img src="https://images.clipartlogo.com/files/images/24/243009/red-star_p" alt=""> <b>4.9</b>
+                      </p>
+                      <a class="card-item-code link" href="#">19 Avis</a>
+                    </div>
+                  </div>
+                  <h3 class="card-title" id="title_1">Dragee au chocolat et sa noisette entière</h3>
+                  <div class="card-item-footer">
+                    <p class="card-item-price">100g / 59.90€</p>
+                    <i class="fa-solid fa-basket-shopping"> </i> <input type="submit" class="btn btn-primary" value=" Acheter Maintenant" name="submit">
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <a class="card-item-link" href="#">
+                  <img class="card-img-top img-fluid" src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQwRaEqt_p1NGVZ3S8Z4rLGh9cqgXGTByaRt7pr-MaIp4mY9g0_MGZ4SU-yKNjanRZ_1XuzDnNZWKEE8-so-4pyQ8yNCN9fgDQLvgyRjJVg97K2iLmbtf09&usqp=CAE" alt="" aria-labelledby="title_2" width="270" height="200">
+                </a>
+                <div class="card-body">
+                  <div class="card-item-header">
+                    <p class="card-item-code">Surprise du chef</p>
+                    <div class="rate">
+                      <p class="card-item-rating">
+                        <img src="https://images.clipartlogo.com/files/images/24/243009/red-star_p" alt=""> <b>4.8</b>
+                      </p>
+                      <a class="card-item-code link" href="#">35 Avis</a>
+                    </div>
+                  </div>
+                  <h3 class="card-title" id="title_2">Poisson d'avril au chocolat au lait et sa crème praliné</h3>
+                  <div class="card-item-footer">
+                    <p class="card-item-price">100g / 39.90€</p>
+                    <i class="fa-solid fa-basket-shopping"> </i> <input type="submit" class="btn btn-primary" value=" Acheter Maintenant" name="submit">
+
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <a class="card-item-link" href="#">
+                  <img class="card-img-top img-fluid" src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRPerrRGTTU4c2BRCDg3ro8wHaBahZ0VIxyYRgTylj9nhShorb3bAWN_5daMfJb6S52SY3GPdryfKmwj8Oj3IhAS8DIv6uD5bjkpgIC3UghOXnQ5mUarkq-Bg&usqp=CAE" alt="" aria-labelledby="title_2" width="270" height="200">
+                </a>
+                <div class="card-body">
+                  <div class="card-item-header">
+                    <p class="card-item-code">Un mélange idéal</p>
+                    <div class="rate">
+                      <p class="card-item-rating">
+                        <img src="https://images.clipartlogo.com/files/images/24/243009/red-star_p" alt=""> <b>4.9</b>
+                      </p>
+                      <a class="card-item-code link" href="#">45 Avis</a>
+                    </div>
+                  </div>
+                  <h3 class="card-title" id="title_2">Boite de chocolat mix au multiple saveur</h3>
+                  <div class="card-item-footer">
+                    <p class="card-item-price">1 Boite / 99€</p>
+                    <i class="fa-solid fa-basket-shopping"> </i> <input type="submit" class="btn btn-primary" value=" Acheter Maintenant" name="submit">
+
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <a class="card-item-link" href="#">
+                  <img class="card-img-top img-fluid" src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQgzZnopQ3ZAoUt-QD1d16UMFGZToQ2SrKaBugE4n1ZH3pMIqT4_AA8qJkRMiSQB5fmTQEQRc0awCTPEWvazfzjGUWQNp1cg4MbjC6sOIN7XdCNoOXrtmcWvg&usqp=CAE" alt="" aria-labelledby="title_2" width="270" height="200">
+                </a>
+                <div class="card-body">
+                  <div class="card-item-header">
+                    <p class="card-item-code">Les saveurs orientales</p>
+                    <div class="rate">
+                      <p class="card-item-rating">
+                        <img src="https://images.clipartlogo.com/files/images/24/243009/red-star_p" alt=""> <b>4.7</b>
+                      </p>
+                      <a class="card-item-code link" href="#">18 Avis</a>
+                    </div>
+                  </div>
+                  <h3 class="card-title" id="title_2">Boite de chocolat au saveur de l'orient (safran)</h3>
+                  <div class="card-item-footer">
+                    <p class="card-item-price">1 Boite / 119€</p>
+                    <i class="fa-solid fa-basket-shopping"> </i> <input type="submit" class="btn btn-primary" value=" Acheter Maintenant" name="submit">
+
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <a class="card-item-link" href="#">
+                  <img class="card-img-top img-fluid" src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQvUqfPXZvweeqQVf4r_-msXiRGPObdbpaLsWvxx6z6q9hjjRBW7QxcQMCzBl0A5n4X3UKjSj4NnTEW_p5WTJemGZDTXlNaaqlAwRNty3dwo0C6gnwdyIE3&usqp=CAE" alt="" aria-labelledby="title_2" width="270" height="200">
+                </a>
+                <div class="card-body">
+                  <div class="card-item-header">
+                    <p class="card-item-code">L'ancètre et le rustique</p>
+                    <div class="rate">
+                      <p class="card-item-rating">
+                        <img src="https://images.clipartlogo.com/files/images/24/243009/red-star_p" alt=""> <b>4.9</b>
+                      </p>
+                      <a class="card-item-code link" href="#">65 Avis</a>
+                    </div>
+                  </div>
+                  <h3 class="card-title" id="title_2">Boite de chocolat au recettes ancèstrales</h3>
+                  <div class="card-item-footer">
+                    <p class="card-item-price">1 Boite / 149€</p>
+                    <i class="fa-solid fa-basket-shopping"> </i> <input type="submit" class="btn btn-primary" value=" Acheter Maintenant" name="submit">
+
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <a class="card-item-link" href="#">
+                  <img class="card-img-top img-fluid" src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRq_Vx575yrUOMXCftsnTq7ql9wL3IUsSglyknR2Xk6_Xv1T9N13q29MILfDMFtOlXJizpNh-NSB0LBr7mcJKQze2rsIyIrT0QujCNKZfG0qxX9ltoq7Rcd4Q&usqp=CAE" alt="" aria-labelledby="title_2" width="270" height="200">
+                </a>
+                <div class="card-body">
+                  <div class="card-item-header">
+                    <p class="card-item-code">Le must du must!</p>
+                    <div class="rate">
+                      <p class="card-item-rating">
+                        <img src="https://images.clipartlogo.com/files/images/24/243009/red-star_p" alt=""> <b>4.9</b>
+                      </p>
+                      <a class="card-item-code link" href="#">34 Avis</a>
+                    </div>
+                  </div>
+                  <h3 class="card-title" id="title_2">Chocolat haut de gamme au champagne et au feuille d'or</h3>
+                  <div class="card-item-footer">
+                    <p class="card-item-price">1 Boite / 199€</p>
+                    <i class="fa-solid fa-basket-shopping"> </i> <input type="submit" class="btn btn-primary" value=" Acheter Maintenant" name="submit">
+
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <a class="card-item-link" href="#">
+                  <img class="card-img-top img-fluid" src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRkeYd6xiGuKAszgX7hKP7qB6Ic4tGUVb26pgFmLEE6Pmrukn0iFJhBqWQZE7PX-Ng8REVmwgYqR-lB-4-zDHgMzX8xVefOXppiX6-6rmTBT9j2tY75K53P&usqp=CAE" alt="" aria-labelledby="title_2" width="270" height="200">
+                </a>
+                <div class="card-body">
+                  <div class="card-item-header">
+                    <p class="card-item-code">Un instant de pureté</p>
+                    <div class="rate">
+                      <p class="card-item-rating">
+                        <img src="https://images.clipartlogo.com/files/images/24/243009/red-star_p" alt=""> <b>5.0</b>
+                      </p>
+                      <a class="card-item-code link" href="#">5 Avis</a>
+                    </div>
+                  </div>
+                  <h3 class="card-title" id="title_2">Boite de chocolat caramélisé et son nougat</h3>
+                  <div class="card-item-footer">
+                    <p class="card-item-price">La boite / 139€</p>
+                    <i class="fa-solid fa-basket-shopping"> </i> <input type="submit" class="btn btn-primary" value=" Acheter Maintenant" name="submit">
+
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <a class="card-item-link" href="#">
+                  <img class="card-img-top img-fluid" src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSs7WhpqOnkhAP-4tOKczQ1j4lCPjzQTvpkhgGtTNIB8SaC7IzCUlALu9gyOlNNSwt_7grSfnyrXrj8-6RTKt86I573MbZSBJGdbPTsF5EnKFOw91hUHSUi&usqp=CAE" alt="" aria-labelledby="title_2" width="270" height="200">
+                </a>
+                <div class="card-body">
+                  <div class="card-item-header">
+                    <p class="card-item-code">Baby Choco de isChoco</p>
+                    <div class="rate">
+                      <p class="card-item-rating">
+                        <img src="https://images.clipartlogo.com/files/images/24/243009/red-star_p" alt=""> <b>4.7</b>
+                      </p>
+                      <a class="card-item-code link" href="#">17 Avis</a>
+                    </div>
+                  </div>
+                  <h3 class="card-title" id="title_2">Noix de chocolat et sa garniture chocolaté</h3>
+                  <div class="card-item-footer">
+                    <p class="card-item-price">La noix / 29.90€</p>
+                    <i class="fa-solid fa-basket-shopping"> </i> <input type="submit" class="btn btn-primary" value=" Acheter Maintenant" name="submit">
+
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            </div>
+          </div>
+        </main>
+        <div class="paiementCont">
+          <img class="paiement" src="images/paiement.png">
+        </div>
+        
+
+    </section>
+    <section class="section5" id="section5">
+        <h1>Avis et Témoignages</h1>
+        <div class="containerBoxReview">
+            <div class="Carrerbox">
+                <h2>Avis Google</h2>
+            <img src="images/google.png" alt="picture" class="imageAvis"><br>
+            <img src="images/etoilejaune.jpg" alt="picture" class="picture">
+            <img src="images/etoilejaune.jpg" alt="picture" class="picture">
+            <img src="images/etoilejaune.jpg" alt="picture" class="picture">
+            <img src="images/etoilejaune.jpg" alt="picture" class="picture">
+            <img src="images/etoilejaune.jpg" alt="picture" class="picture">
+                <h3>4.9/5 - 862 Avis</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo blanditiis ratione quo officiis, consectetur est tenetur ab porro optio similique consequatur impedit tempore architecto, accusantium quisquam, voluptatibus rem dicta ducimus.</p>
+            </div>
+            <div class="Carrerbox">
+                <h2>Avis Vérifiés</h2>
+                <img src="images/avisverifier.jpg" alt="picture" class="imageAvis"><br>
+                <img src="images/etoileorange.jpg" alt="picture" class="picture">
+                <img src="images/etoileorange.jpg" alt="picture" class="picture">
+                <img src="images/etoileorange.jpg" alt="picture" class="picture">
+                <img src="images/etoileorange.jpg" alt="picture" class="picture">
+                <img src="images/etoileorange.jpg" alt="picture" class="picture">
+                    <h3>4.7/5 - 124 Avis</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo blanditiis ratione quo officiis, consectetur est tenetur ab porro optio similique consequatur impedit tempore architecto, accusantium quisquam, voluptatibus rem dicta ducimus.</p>
+                
+            </div>
+            <div class="Carrerbox">
+                <h2>Avis TrustPilot</h2>
+                <img src="images/trustpilot.png" alt="picture" class="imageAvis"><br>
+                <img src="images/etoileverte.jpg" alt="picture" class="picture">
+                <img src="images/etoileverte.jpg" alt="picture" class="picture">
+                <img src="images/etoileverte.jpg" alt="picture" class="picture">
+                <img src="images/etoileverte.jpg" alt="picture" class="picture">
+                <img src="images/etoileverte.jpg" alt="picture" class="picture">
+                    <h3>4.8/5 - 1296 Avis</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo blanditiis ratione quo officiis, consectetur est tenetur ab porro optio similique consequatur impedit tempore architecto, accusantium quisquam, voluptatibus rem dicta ducimus.</p>
+                
+            </div>
+        </div>
+
+        <div class="containerAvis">
+            <img src="images/avisamazon.png" alt="picture" class="picture2">
+            <img src="images/avisfacebook.png" alt="picture" class="picture2">
+            <img src="images/avispagejaune.png" alt="picture" class="picture2">
+            <img src="images/avistrust.png" alt="picture" class="picture2">
+        </div>
+    </section>
+    <section class="section6" id="section6">
+        <h1>Le Magasin</h1>
+        <div class="containerSection6">
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21464.126737711384!2d7.300710393969979!3d47.74234733678871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47919b87354d9b6f%3A0x30584477b83729e!2sChocolaterie%20Gaugler%20Mulhouse!5e0!3m2!1sfr!2sfr!4v1648133117056!5m2!1sfr!2sfr" width="600" height="470" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="containerInfo">
+                <img src="images/store.png" alt="picture" class="storeIMG">
+                <h2>Le Magasin isChoco de Mulhouse</h2>
+                <p>Ouvert de 08h30 à 20h00 du lundi au samedi</p>                
+                
+            </div>
+
+        </div>
+
+    </section>
+    <section class="section7" id="section7">
+  
+
+      <div class="containerSection7">
+        <h1>Contactez-Nous</h1>
+        <div class="containerContact">
+          <div class="contain">
+
+            <div class="wrapper">
+          
+              <div class="form">
+                <h4>Réponse sous 24h
+                </h4>
+                <h2 class="form-headline">Envoyer un message</h2>
+                <form id="submit-form" action="">
+                  <p>
+                    <input id="name" class="form-input" type="text" placeholder="Nom*">
+                    <small class="name-error"></small>
+                  </p>
+                  <p>
+                    <input id="email" class="form-input" type="email" placeholder="Email*">
+                    <small class="name-error"></small>
+                  </p>
+                  <p class="full-width">
+                    <input id="company-name" class="form-input" type="text" placeholder="Sujet*" required>
+                    <small></small>
+                  </p>
+                  <p class="full-width">
+                    <textarea  minlength="20" id="message" cols="30" rows="7" placeholder="Votre Message*" required></textarea>
+                    <small></small>
+                  </p>
+                  <p class="full-width">
+                    <input type="checkbox" id="checkbox" name="checkbox" checked> Oui je souhaite recevoir la newsletter                 </p>
+                  <p class="full-width">
+                    <input type="submit" class="submit-btn" value="Envoyer" onclick="checkValidations()">
+                    <button class="reset-btn" onclick="reset()">Réinitialiser</button>
+                  </p>
+                </form>
+              </div>
+          
+             <div class="containerInfoContact">
+               <img src="logo2.png">
+            <h2>Information complémentaire:</h2>
+            <p><b>Téléphone:</b> 03.20.14.99.87</p>
+            <p><b>Adresse:</b> 49 Rue de Mulhouse, </p>
+            <p><b>Ville & Code Postal:</b> 68200 Mulhouse </p>
+            <p><b>Email:</b> contact@isChoco.com</p>
+            <div class="socialIcon">
+              <img src="images/facebook.png" class="socialImg">
+              <img src="images/instagram.png" class="socialImg">
+              <img src="images/twitter.jpg" class="socialImg">
+              <img src="images/whatapps.jpg" class="socialImg">
+              <img src="images/snapchat.jpg" class="socialImg">
+              <img src="images/pinterest.jpg" class="socialImg">
+              <img src="images/messenger.jpg" class="socialImg">
+
+
+            </div>
+
+
+            </div>
+
+
+          </div>
+        </div>
+
+        </div>
+  
+
+
+    </section>
+
+    <section class="Section8" id="section8">
+
+      <div class="containerFooter">
+        <nav class="menubot">
+        
+         
+              <li><a class = "#section1" href = "#Menu"><i class="fa-solid fa-house-user"></i> Accueil</a></li>
+              <li><a href = "#section2"><i class="fa-solid fa-igloo"></i> La Maison & Notre Histoire</a></li>
+              <li><a href = "#section3"><i class="fa-solid fa-trophy"></i> Produits Vedettes</a></li>
+              <li><a href = "#section4"><i class="fa-solid fa-cookie-bite"></i> Notre eBoutique</a></li>
+              <li><a href = "#section5"><i class="fa-brands fa-hotjar"></i> Avis & Témoignages</a></li>
+              <li><a href = "#section6"><i class="fa-solid fa-shop"></i> Le Magasin</a></li>
+              <li><a href = "#section7"><i class="fa-solid fa-id-card"></i> Contact</a></li>
+          
+      </nav>
+      <div class="FooterLogo">
+        <img class="logo" src="logo.png" alt="logo-is-choco">
+        <p class="chocoTXTlogo">Chocolatier d'exception depuis 1962 en Alsace (France)</p>
+      </div>
+      
+      
+      <nav class="menubot2">
+        
+        
+            <li><a class = "#section1" href = "mentions-legales.pdf" target="_blank"> Mentions Légales & Lois en vigeur <i class="fa-solid fa-crosshairs"></i></a></li>
+            <li><a href = "Politique_de_confidentialité.pdf" target="_blank"> Politique de protections des données <i class="fa-solid fa-book-open-reader"></i></a></li>
+            <li><a href = "Condition_d'utilisation_et_de_vente.pdf" target="_blank"> Conditions Générales d'Utilisations <i class="fa-solid fa-book-atlas"></i></a></li>
+            <li><a href = "Condition_d'utilisation_et_de_vente.pdf" target="_blank"> Conditions Générales de Ventes <i class="fa-solid fa-book-journal-whills"></i></a></li>
+              <li><a href = "Politique_relative_aux_cookies.pdf" target="_blank"> Cookies & Autres Technologies <i class="fa-solid fa-cookie"></i></a></li>
+            <li><a href = "F.A.Q.pdf" target="_blank"> Foire au Question (F.A.Q) <i class="fa-solid fa-circle-question"></i></a></li>
+            <li><a href = "sitemap.xml" target="_blank"> Plan du Site & Site Map <i class="fa-solid fa-signs-post"></i></a></li>
+     </nav>
+     <img class="chef" src="images/chef.png" alt="logo-is-choco"> 
+      
+      
+     
+    </section>
+    <section class="bottomBar">    <p>2022 © Tous droits Réservés - isChoco.com / Coding by Quentin</p></section>
+
+ 
+    <script src="script.js"></script>
+    
+</body>
+</html>
+
